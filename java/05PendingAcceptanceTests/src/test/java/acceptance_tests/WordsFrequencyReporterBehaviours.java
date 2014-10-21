@@ -6,7 +6,7 @@ package acceptance_tests;
       So that I can keep a tab of popular words
 */
 
-import com.neomatrix369.services.WordsFrequencyReporter;
+import com.neomatrix369.WordsFrequencyReporter;
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.equalTo;

@@ -1,13 +1,12 @@
 package unit_tests;
 
-import com.neomatrix369.services.WordsFrequencyReporter;
+import com.neomatrix369.WordsFrequencyReporter;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.List;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
