@@ -1,6 +1,6 @@
 package unit_tests;
 
-import com.neomatrix369.services.WordsFrequencyReporter;
+import com.neomatrix369.WordsFrequencyReporter;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
