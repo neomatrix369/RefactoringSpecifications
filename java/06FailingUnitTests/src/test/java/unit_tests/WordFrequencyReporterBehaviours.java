@@ -29,5 +29,4 @@ public class WordFrequencyReporterBehaviours {
         assertThat("Should have returned an empty list", actualList,
                 is(equalTo(expectedList)));
     }
-
 }

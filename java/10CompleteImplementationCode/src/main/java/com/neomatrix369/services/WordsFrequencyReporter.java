@@ -26,10 +26,6 @@ public class WordsFrequencyReporter {
         return generateReportToReturn(report, wordsFrequencyList, topNFrequency);
     }
 
-    private boolean wordsListIsNotAssigned(String wordsList) {
-        return wordsList == null;
-    }
-
     private StringBuilder generateReportToReturn(
             StringBuilder report,
             List<WordEntity> wordsFrequencyList,
@@ -59,5 +55,9 @@ public class WordsFrequencyReporter {
 
     private boolean checkIfWordsListIsNotAssignedOrEmpty(String wordsList) {
         return wordsListIsNotAssigned(wordsList) || wordsList.isEmpty();
+    }
+
+    private boolean wordsListIsNotAssigned(String wordsList) {
+        return wordsList == null;
     }
 }
