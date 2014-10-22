@@ -20,7 +20,7 @@ Feature: Most Frequently Occurring Words
     Output:
       3 america
       2 north
-      1 south
+      1 africa
 
   Scenario: List of top repeated words sorted by frequency, words with same frequencies ordered in alphabetical order
 

@@ -33,7 +33,7 @@ public class WordsFrequencyReporterBehaviours {
             Output:
                 3 america
                 2 north
-                1 africa
+                1 south
     */
 
     @Test
@@ -43,7 +43,7 @@ public class WordsFrequencyReporterBehaviours {
         StringBuilder expectedList = new StringBuilder()
                 .append("3 america" + "\n")
                 .append("2 north" + "\n")
-                .append("1 africa" + "\n");
+                .append("1 south" + "\n");
         String expectedListAsString = expectedList.toString();
         int topNumberOfWords = 3;
         String wordsList = "united, states, america, north, america, south, america, africa, " +

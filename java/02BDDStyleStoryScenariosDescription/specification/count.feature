@@ -4,4 +4,5 @@ Feature: Most Frequently Occurring Words
   So that I can keep a tab of popular words
 
   Scenario: List of top repeated words sorted by frequency
-  Scenario: List of top repeated words sorted by frequency, words with same frequencies ordered in alphabetical order
+  Scenario: List of top repeated words sorted by frequency, words with same frequencies ordered
+            in alphabetical order
