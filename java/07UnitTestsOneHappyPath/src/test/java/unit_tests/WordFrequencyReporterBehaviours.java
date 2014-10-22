@@ -16,7 +16,7 @@ public class WordFrequencyReporterBehaviours {
 
     /*
         Scenario: Frequency report for an undefined list (null)
-            Given an empty list is available
+            Given an undefined list is available
             When the frequency program is executed
             Then an empty report is returned
     */
