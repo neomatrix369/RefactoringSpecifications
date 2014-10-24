@@ -35,7 +35,6 @@ public class WordsFrequencyReporterBehaviours {
                 2 north
                 1 south
     */
-
     @Test
     public void shouldReturn_A_ListOf_UniqueWordFrequencies() {
         // Given a list of words is available
