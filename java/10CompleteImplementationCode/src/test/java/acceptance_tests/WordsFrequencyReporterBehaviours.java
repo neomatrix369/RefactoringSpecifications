@@ -15,10 +15,6 @@ import static org.junit.Assert.assertThat;
 
 public class WordsFrequencyReporterBehaviours {
 
-    private StringBuilder expectedList;
-    private String expectedListAsString;
-    private int topNumberOfWords;
-    private String wordsList;
     /*
         Scenario: List of top repeated words sorted by frequency
             Given a list of words is available
@@ -44,9 +40,14 @@ public class WordsFrequencyReporterBehaviours {
     public void shouldReturn_A_ListOf_UniqueWordFrequencies() {
         // Given a list of words is available
         // And N number of top repeated words to print is known
-        givenWordListAndTopN_is_Known(expectedList, expectedListAsString, topNumberOfWords,
-                "united, states, america, north, america, south, america, africa, " +
-                        "north, korea");
+        StringBuilder expectedList = new StringBuilder()
+                .append("3 america" + "\n")
+                .append("2 north" + "\n")
+                .append("1 africa" + "\n");
+        String expectedListAsString = expectedList.toString();
+        int topNumberOfWords = 3;
+        String wordsList = "united, states, america, north, america, south, america, africa, " +
+                "north, korea";
 
         // When the frequency program is executed
         String actualListAsString = whenFrequencyParseIsInvoked(topNumberOfWords, wordsList);
@@ -56,22 +57,6 @@ public class WordsFrequencyReporterBehaviours {
         // And the output is sorted in descending order by frequency of occurrence.
         assertThat("Expected a list of words with their frequency they are repeated at.",
                 actualListAsString, is(equalTo(expectedListAsString)));
-    }
-
-    private void givenWordListAndTopN_is_Known(StringBuilder inExpectedList, String inExpectedListAsString, int inTopNumberOfWords, String inWordsList) {
-        inExpectedList = new StringBuilder()
-                .append("3 america" + "\n")
-                .append("2 north" + "\n")
-                .append("1 africa" + "\n");
-        inExpectedListAsString = expectedList.toString();
-        inTopNumberOfWords = 3;
-        wordsList = inWordsList;
-    }
-
-    private String whenFrequencyParseIsInvoked(int topNumberOfWords, String wordsList) {
-        WordsFrequencyReporter wordsFrequencyReporter = new WordsFrequencyReporter();
-        StringBuilder actualList = wordsFrequencyReporter.parse(topNumberOfWords, wordsList);
-        return actualList.toString();
     }
 
     /*
@@ -127,5 +112,11 @@ public class WordsFrequencyReporterBehaviours {
         // And the words with the same frequency are further is sorted alphabetically (ascending order)
         assertThat("Expected a list of words with their frequency they are repeated at.",
                 actualListAsString, is(equalTo(expectedListAsString)));
+    }
+
+    private String whenFrequencyParseIsInvoked(int topNumberOfWords, String wordsList) {
+        WordsFrequencyReporter wordsFrequencyReporter = new WordsFrequencyReporter();
+        StringBuilder actualList = wordsFrequencyReporter.parse(topNumberOfWords, wordsList);
+        return actualList.toString();
     }
 }
