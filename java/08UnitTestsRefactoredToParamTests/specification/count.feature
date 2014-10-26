@@ -15,7 +15,7 @@ Feature: Most Frequently Occurring Words
   Example:
     Input:
       N = 3
-    and
+        and
       list = united, states, america, north, america, south, america, africa, north, korea
 
     Output:
@@ -39,7 +39,7 @@ Feature: Most Frequently Occurring Words
   Example:
     Input:
       N = 4
-    and
+        and
       list = united, states, america, north, america, south, america, south, africa, north,
       korea, england, england
 

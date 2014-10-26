@@ -18,10 +18,10 @@ Feature: Most Frequently Occurring Words
         and
       list = united, states, america, north, america, south, america, africa, north, korea
 
-  Output:
-    3 america
-    2 north
-    1 africa
+    Output:
+      3 america
+      2 north
+      1 africa
 
   Scenario: List of top repeated words sorted by frequency, words with same frequencies
   ordered in alphabetical order
@@ -31,10 +31,10 @@ Feature: Most Frequently Occurring Words
     And two or more words have the same frequencies
     When the frequency program is executed
     Then the top N most frequently occurring words in the list together with their
-  frequency of occurrence are printed
+    frequency of occurrence are printed
     And the output is sorted in descending order by frequency of occurrence
     And the words with the same frequency are further is sorted alphabetically
-  (ascending order)
+    (ascending order)
 
   Example:
     Input:
@@ -43,8 +43,8 @@ Feature: Most Frequently Occurring Words
       list = united, states, america, north, america, south, america, south, africa, north,
       korea, england, england
 
-  Output:
-    3 america
-    2 england
-    2 north
-    2 south
+    Output:
+      3 america
+      2 england
+      2 north
+      2 south

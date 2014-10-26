@@ -7,7 +7,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class WordFrequencyReporterBehaviours {
+public class WordsFrequencyReporterBehaviours {
     /*
         Scenario: Frequency report for an empty list
             Given an empty list is available

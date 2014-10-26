@@ -31,7 +31,7 @@ public class WordsFrequencyReporterBehaviours {
                 {"united, kingdom", 2, "1 kingdom\n" +
                                        "1 united\n"                },  // 3
                 {"united, kingdom,"+
-                 "united, states",  3, "1 united\n" +                  // 4
+                 "united, states",  3, "2 united\n" +                  // 4
                                        "1 kingdom\n" +
                                        "1 states\n"                }
         });

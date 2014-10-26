@@ -88,7 +88,6 @@ public class WordsFrequencyReporterBehaviours {
                 2 united kingdom
                 2 south
     */
-
     @Test
     public void shouldReturn_A_ListOfWordFrequencies_OrderedByAlpha_WhenFrequenciesRepeat() {
         // Given a list of words is available

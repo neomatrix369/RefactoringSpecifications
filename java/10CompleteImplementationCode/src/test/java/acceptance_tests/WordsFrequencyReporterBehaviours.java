@@ -19,6 +19,26 @@ public class WordsFrequencyReporterBehaviours {
     private String expectedListAsString;
     private int topNumberOfWords;
     private String wordsList;
+    /*
+        Scenario: List of top repeated words sorted by frequency
+            Given a list of words is available
+            And N number of top repeated words to print is known
+            When the frequency program is executed
+            Then the top N most frequently occurring words in the list together with their frequency of
+            occurrence are printed
+            And the output is sorted in descending order by frequency of occurrence.
+
+        Example:
+            Input:
+                N = 3
+                    and
+                list = united, states, america, north, america, south, america, africa, north, korea
+
+            Output:
+                3 america
+                2 north
+                1 africa
+    */
 
     @Test
     public void shouldReturn_A_ListOf_UniqueWordFrequencies() {

@@ -7,7 +7,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class WordFrequencyReporterBehaviours {
+public class WordsFrequencyReporterBehaviours {
     private static final String SHOULD_HAVE_RETURNED_AN_EMPTY_LIST = "Should have returned an empty list";
     private static final String EMPTY_WORDS_LIST = "";
     private static final String NOT_ASSIGNED = null;
@@ -26,7 +26,8 @@ public class WordFrequencyReporterBehaviours {
         String expectedListAsString = getWordFrequencyEmptyReport();
 
         // When
-        String actualListAsString = getWordsFrequencyReportFrom(ANY_VALID_TOP_N, NOT_ASSIGNED);
+        String actualListAsString =
+                getWordsFrequencyReportFrom(ANY_VALID_TOP_N, NOT_ASSIGNED);
 
         //Then
         assertThat(SHOULD_HAVE_RETURNED_AN_EMPTY_LIST,
@@ -79,9 +80,9 @@ public class WordFrequencyReporterBehaviours {
         return expectedList.toString();
     }
 
-    private String getWordsFrequencyReportFrom(int topN, String wordsList) {
+    private String getWordsFrequencyReportFrom(int topNFrequency, String wordsList) {
         WordsFrequencyReporter wordsFrequencyBuilder = new WordsFrequencyReporter();
-        StringBuilder actualList = wordsFrequencyBuilder.parse(topN, wordsList);
+        StringBuilder actualList = wordsFrequencyBuilder.parse(topNFrequency, wordsList);
         return actualList.toString();
     }
 }

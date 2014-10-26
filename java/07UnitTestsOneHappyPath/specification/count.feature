@@ -15,13 +15,13 @@ Feature: Most Frequently Occurring Words
   Example:
     Input:
       N = 3
-    and
+        and
       list = united, states, america, north, america, south, america, africa, north, korea
 
-  Output:
-    3 america
-    2 north
-    1 south
+    Output:
+      3 america
+      2 north
+      1 south
 
   Scenario: List of top repeated words sorted by frequency, words with same frequencies
   ordered in alphabetical order
@@ -39,12 +39,12 @@ Feature: Most Frequently Occurring Words
   Example:
     Input:
       N = 4
-    and
+        and
       list = united, states, america, north, america, south, america, south, africa, north,
       korea, england, england
 
-  Output:
-    3 america
-    2 england
-    2 north
-    2 south
+    Output:
+      3 america
+      2 england
+      2 north
+      2 south

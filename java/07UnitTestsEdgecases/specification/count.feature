@@ -15,7 +15,7 @@ Feature: Most Frequently Occurring Words
   Example:
     Input:
       N = 3
-    and
+        and
       list = united, states, america, north, america, south, america, africa, north, korea
 
     Output:
@@ -34,13 +34,14 @@ Feature: Most Frequently Occurring Words
     frequency of occurrence are printed
     And the output is sorted in descending order by frequency of occurrence
     And the words with the same frequency are further is sorted alphabetically
-  (ascending order)
+    (ascending order)
 
   Example:
     Input:
       N = 4
-    and
-      list = united, states, america, north, america, south, america, south, africa, north, korea, england, england
+        and
+      list = united, states, america, north, america, south, america, south, africa, north,
+      korea, england, england
 
     Output:
       3 america
