@@ -1,0 +1,9 @@
+# Artifacts
+bin
+obj
+
+# Visual Studio
+*.suo
+
+# Xamarin Studio
+*.userprefs
