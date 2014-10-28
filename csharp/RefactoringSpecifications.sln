@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01OriginalProblem.Specifica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02BDDStyleStoryScenariosDescription.Specification", "02BDDStyleStoryScenariosDescription.Specification\02BDDStyleStoryScenariosDescription.Specification.csproj", "{E7FC0360-0595-43C6-8317-70B5B3DCA183}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03BDDStyleStoryScenariosFleshedOut.Specification", "03BDDStyleStoryScenariosFleshedOut.Specification\03BDDStyleStoryScenariosFleshedOut.Specification.csproj", "{D3C10008-7B82-4AE5-85C5-77CDD535389E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,12 @@ Global
 		{935145E3-F435-4C02-BAB5-276759C38F71}.Default|Any CPU.Build.0 = Debug|Any CPU
 		{935145E3-F435-4C02-BAB5-276759C38F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{935145E3-F435-4C02-BAB5-276759C38F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C10008-7B82-4AE5-85C5-77CDD535389E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C10008-7B82-4AE5-85C5-77CDD535389E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C10008-7B82-4AE5-85C5-77CDD535389E}.Default|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C10008-7B82-4AE5-85C5-77CDD535389E}.Default|Any CPU.Build.0 = Debug|Any CPU
+		{D3C10008-7B82-4AE5-85C5-77CDD535389E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C10008-7B82-4AE5-85C5-77CDD535389E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E7FC0360-0595-43C6-8317-70B5B3DCA183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E7FC0360-0595-43C6-8317-70B5B3DCA183}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7FC0360-0595-43C6-8317-70B5B3DCA183}.Default|Any CPU.ActiveCfg = Debug|Any CPU
