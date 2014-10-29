@@ -20,7 +20,7 @@
 |-----------|
 | 3 america |
 | 2 north   |
-| 2 south   |
+| 1 south   |
 
 See [Original specification as a feature file (early stages)] (https://github.com/neomatrix369/RefactoringSpecifications/blob/master/java/01OriginalProblem/specification/count.feature)
 
