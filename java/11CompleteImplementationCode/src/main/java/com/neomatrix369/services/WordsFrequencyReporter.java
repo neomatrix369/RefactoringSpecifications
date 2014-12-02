@@ -26,7 +26,7 @@ public class WordsFrequencyReporter {
         return generateReportToReturn(report, wordsFrequencyList, topNFrequency);
     }
 
-    private StringBuilder generateReportToReturn(
+        private StringBuilder generateReportToReturn(
             StringBuilder report,
             List<WordEntity> wordsFrequencyList,
             int topNFrequency) {
@@ -46,7 +46,7 @@ public class WordsFrequencyReporter {
         return report;
     }
 
-    private int keepTopNFrequencyWithinRange(List<WordEntity> wordsFrequencyList, int topNFrequency) {
+    private int keepTopNFrequencyWithinRange``(List<WordEntity> wordsFrequencyList, int topNFrequency) {
         if (topNFrequency > wordsFrequencyList.size()) {
             topNFrequency = wordsFrequencyList.size();
         }

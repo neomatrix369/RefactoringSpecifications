@@ -25,7 +25,7 @@ namespace UnitTestsMoreTestCases.AcceptanceTests
 	            Output:
 	                3 america
 	                2 north
-	                1 south
+	                1 africa
 	    */
 		[Test()]
 		public void ShouldReturn_A_ListOf_UniqueWordFrequencies()
@@ -35,7 +35,7 @@ namespace UnitTestsMoreTestCases.AcceptanceTests
 			string expectedListAsString =
 				  "3 america" + "\n"
 				+ "2 north" + "\n"
-				+ "1 south" + "\n";
+				+ "1 africa" + "\n";
 			int topNumberOfWords = 3;
 			String wordsList = "united, states, america, north, america, south, america, africa, north, korea";
 

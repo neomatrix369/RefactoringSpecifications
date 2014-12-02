@@ -1,0 +1,8 @@
+# Ignore . & ~ files except .gitignore #
+*~
+.*
+!/.gitignore
+ 
+# IntelliJ IDEA files
+*.iml
+.idea/
